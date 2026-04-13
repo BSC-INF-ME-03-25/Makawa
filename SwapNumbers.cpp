@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-/*	void*/ swapNumbers(int &a, int &b){
+	void swapNumbers(int &a, int &b){ // this function does not retur values into main
 		int temp = a;
 	a = b;
 	b = temp;
